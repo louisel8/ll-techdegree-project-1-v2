@@ -1,6 +1,6 @@
 """
 Python Development Techdegree
-Project 1 (V2) - The Number Guessing Game
+Project 1 (V3) - The Number Guessing Game
 --------------------------------
 """
 
@@ -17,7 +17,7 @@ Until the correct number be guessed. Good luck!
 def start_game(previous_number=None):
     if previous_number is None:
         the_number = random.randint(1, 10)
-        print(the_number)
+        #print(the_number)
         count_guess = 0
     else:
         the_number = previous_number
@@ -55,7 +55,7 @@ def start_game(previous_number=None):
 
             elif option == "b":
                 the_number = random.randint(1, 10)
-                print(the_number)
+                #print(the_number)
                 count_guess = 0
                 print("Starting over the game.")
                 continue
@@ -103,7 +103,7 @@ def play_game():
             elif option == "a":
                 the_number = random.randint(1, 10)
                 round = round + 1
-                print(the_number)
+                #print(the_number)
                 continue
 
 
